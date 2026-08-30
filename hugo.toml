@@ -1,3 +1,31 @@
-baseURL = 'https://example.org/'
-locale = 'en-us'
-title = 'My New Hugo Project'
+baseURL = "https://fohlen.github.io"
+languageCode = "en-us"
+title = "Lennard Berger's blog"
+theme = "yinyang"
+DefaultContentLanguage = "en"
+
+[services]
+  [services.googleAnalytics]
+    id = ""
+
+[params]
+description = "A Cognitive Scientist's blog"
+disqus = ""
+headTitle = "Lennard Berger's blog"
+mainSections = ["posts"]
+postHeaderContent = ""
+lazyImage = true
+extraHead = '''<meta name="google-site-verification" content="nxpWrXt97X-soIBX-zibrfoR5k3EpoomKitRnQRLh70" />
+<script data-goatcounter="https://fohlen.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>'''
+
+[params.author]
+homepage = "https://github.com/Fohlen"
+name = "Lennard Berger"
+
+[[params.socials]]
+name = "RSS"
+link = "/index.xml"
+
+[[params.socials]]
+name = "GitHub"
+link = "https://github.com/Fohlen"
