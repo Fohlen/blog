@@ -1,0 +1,11 @@
+[project]
+name = "fohlen-blog"
+version = "0.1.0"
+description = "Notebook sources and tooling for Lennard Berger's blog"
+requires-python = ">=3.10"
+dependencies = [
+    "jupytext>=1.19",
+]
+
+[tool.uv.workspace]
+members = ["notebooks/*"]
