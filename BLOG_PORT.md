@@ -88,6 +88,8 @@ Then tidy the generated output for Hugo:
 5. Optionally strip the Quarto `#| label:` / `#| fig-cap:` comment lines from code
    cells (they are only meaningful to Quarto).
 6. Convert all images (including chart PNGs) to webp and update references.
+7. If the post links to helper scripts (e.g. `[computation](distances.py)`), copy them
+   into the post folder too so the relative links resolve in the published site.
 
 ## Notebooks in git (keep the repo small)
 
@@ -128,6 +130,8 @@ Site overrides live in `layouts/` and `static/css/custom.css`:
 - `static/css/custom.css` — system sans-serif body font (the theme's Bree Serif
   read as bold), `.about-portrait` (centered, circular profile image), flex
   category layout, and `extraHead` injects the old goatcounter/verification tags.
+- `hugo.toml` → `params.extraHead` also loads KaTeX (CSS + `auto-render`), so
+  LaTeX math (`$...$` / `$$...$$`) in posts renders; the theme has no math support.
 
 ## Verification
 
@@ -143,5 +147,6 @@ git status        # ensure no huge files staged (check-attr ipynb)
 - [x] `why-originality-matters` (markdown)
 - [x] `python-dataclasses-a-package-full-of-surprises` (markdown, manual citations)
 - [x] `yguard-release` (markdown)
+- [x] `compression-based-classifier` (notebook, manual citations)
 - [ ] `modeling_mindsets` (notebook — workspace set up, post in progress)
 - [ ] remaining posts

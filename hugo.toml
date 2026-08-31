@@ -20,7 +20,10 @@ postHeaderContent = ""
 lazyImage = true
 extraCSSFiles = ["css/custom.css"]
 extraHead = '''<meta name="google-site-verification" content="nxpWrXt97X-soIBX-zibrfoR5k3EpoomKitRnQRLh70" />
-<script data-goatcounter="https://fohlen.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>'''
+<script data-goatcounter="https://fohlen.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body,{delimiters:[{left:'$$',right:'$$',display:true},{left:'$',right:'$',display:false}]});"></script>'''
 
 [params.author]
 homepage = "https://github.com/Fohlen"
