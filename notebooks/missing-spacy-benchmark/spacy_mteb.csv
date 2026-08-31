@@ -1,0 +1,35 @@
+bge-base-en-v1.5,Classification,75.53
+bge-base-en-v1.5,Clustering,45.77
+bge-base-en-v1.5,Pair classification,86.55
+bge-base-en-v1.5,Reranking,58.86
+bge-base-en-v1.5,Retrieval,53.25
+bge-base-en-v1.5,STS,82.4
+bge-base-en-v1.5,Summarization,31.07
+multilingual-e5-small,Classification,70.74
+multilingual-e5-small,Clustering,37.08
+multilingual-e5-small,Pair classification,82.59
+multilingual-e5-small,Reranking,53.87
+multilingual-e5-small,Retrieval,46.64
+multilingual-e5-small,STS,79.1
+multilingual-e5-small,Summarization,29.98
+all-MiniLM-L12-v2,Classification,63.21
+all-MiniLM-L12-v2,Clustering,41.81
+all-MiniLM-L12-v2,Pair classification,82.41
+all-MiniLM-L12-v2,Reranking,58.44
+all-MiniLM-L12-v2,Retrieval,42.69
+all-MiniLM-L12-v2,STS,79.8
+all-MiniLM-L12-v2,Summarization,27.9
+en_core_web_trf,Classification,41.37
+en_core_web_trf,Clustering,10.45
+en_core_web_trf,Pair classification,29.74
+en_core_web_trf,Reranking,31.44
+en_core_web_trf,Retrieval,1.89
+en_core_web_trf,STS,23.29
+en_core_web_trf,Summarization,23.02
+en_core_web_sm,Classification,39.53
+en_core_web_sm,Clustering,11.17
+en_core_web_sm,Pair classification,43.45
+en_core_web_sm,Reranking,32.78
+en_core_web_sm,Retrieval,3.2
+en_core_web_sm,STS,33.95
+en_core_web_sm,Summarization,30.17
