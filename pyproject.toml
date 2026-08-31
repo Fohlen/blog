@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "Notebook sources and tooling for Lennard Berger's blog"
 requires-python = ">=3.10"
 dependencies = [
-    "jupytext>=1.19",
+    "nbconvert>=7.17",
 ]
 
 [tool.uv.workspace]
