@@ -87,9 +87,13 @@ Then tidy the generated output for Hugo:
    the `![png](<Notebook>_files/...)` references.
 5. Optionally strip the Quarto `#| label:` / `#| fig-cap:` comment lines from code
    cells (they are only meaningful to Quarto).
-6. Convert all images (including chart PNGs) to webp and update references.
+6. Convert all images (including chart PNGs) to webp and update references. Keep
+   vector diagrams (`*.svg`) as-is — don't rasterize them.
 7. If the post links to helper scripts (e.g. `[computation](distances.py)`), copy them
    into the post folder too so the relative links resolve in the published site.
+8. Heavy deps that are only needed to run the helper scripts (e.g. `mteb`, `spacy`)
+   go in a `[project.optional-dependencies] scripts = [...]` group instead of the
+   main `dependencies`, so `uv sync` stays light.
 
 ## Notebooks in git (keep the repo small)
 
@@ -148,5 +152,6 @@ git status        # ensure no huge files staged (check-attr ipynb)
 - [x] `python-dataclasses-a-package-full-of-surprises` (markdown, manual citations)
 - [x] `yguard-release` (markdown)
 - [x] `compression-based-classifier` (notebook, manual citations)
+- [x] `missing-spacy-benchmark` (notebook, manual citations)
 - [ ] `modeling_mindsets` (notebook — workspace set up, post in progress)
 - [ ] remaining posts
