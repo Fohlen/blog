@@ -94,6 +94,10 @@ Then tidy the generated output for Hugo:
 8. Heavy deps that are only needed to run the helper scripts (e.g. `mteb`, `spacy`)
    go in a `[project.optional-dependencies] scripts = [...]` group instead of the
    main `dependencies`, so `uv sync` stays light.
+9. Interactive outputs (matplotlib `FuncAnimation` → `to_jshtml()`) do NOT survive the
+   Hugo build: goldmark re-parses the embedded script as markdown and breaks it. Export
+   the animation as an animated GIF instead (extract the base64 frames from the notebook
+   output and assemble with `ffmpeg`), and drop the animation HTML from the post.
 
 ## Notebooks in git (keep the repo small)
 
@@ -153,5 +157,6 @@ git status        # ensure no huge files staged (check-attr ipynb)
 - [x] `yguard-release` (markdown)
 - [x] `compression-based-classifier` (notebook, manual citations)
 - [x] `missing-spacy-benchmark` (notebook, manual citations)
+- [x] `network-randimisation` (notebook, manual citations, animations as GIFs)
 - [ ] `modeling_mindsets` (notebook — workspace set up, post in progress)
 - [ ] remaining posts
