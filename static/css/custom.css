@@ -11,3 +11,26 @@ body {
   border-radius: 50%;
 }
 
+.posts-title-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.posts-categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0;
+  text-align: center;
+}
+
+.posts-category {
+  padding: 2px 6px;
+  border: var(--text-color) 2px solid;
+  border-radius: 5px;
+  white-space: nowrap;
+}
+
