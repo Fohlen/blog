@@ -2,11 +2,11 @@
 name = "network-randimisation"
 version = "0.1.0"
 description = "Why degree-preserving and full graph randomisation are not the same"
-requires-python = ">=3.10"
+requires-python = ">=3.14"
 dependencies = [
-    "jupyterlab~=4.0.9",
-    "matplotlib~=3.8.2",
-    "networkx~=3.2.1",
-    "scipy~=1.11.4",
-    "seaborn~=0.13.0",
+    "jupyterlab>=4.3,<5",
+    "matplotlib>=3.10",
+    "networkx>=3.4",
+    "scipy>=1.16",
+    "seaborn>=0.13.2",
 ]

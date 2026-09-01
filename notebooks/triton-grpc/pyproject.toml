@@ -2,17 +2,17 @@
 name = "triton-grpc"
 version = "0.1.0"
 description = "Benchmarking gRPC against HTTP on the Triton Inference Server"
-requires-python = ">=3.10"
+requires-python = ">=3.14"
 dependencies = [
-    "jupyterlab~=4.0.9",
-    "pandas~=2.1.3",
-    "matplotlib~=3.8.2",
-    "seaborn~=0.13.0",
+    "jupyterlab>=4.3,<5",
+    "pandas>=2.3",
+    "matplotlib>=3.10",
+    "seaborn>=0.13.2",
 ]
 
 [project.optional-dependencies]
 scripts = [
-    "tritonclient[http,grpc]~=2.39.0",
-    "molotov~=2.6",
-    "tqdm~=4.66.1",
+    "tritonclient[http,grpc]>=2.39",
+    "molotov>=2.6",
+    "tqdm>=4.66",
 ]

@@ -2,13 +2,13 @@
 name = "testing-linear-regression-empirically"
 version = "0.1.0"
 description = "Testing whether ordinary least squares regression empirically holds up its assumptions"
-requires-python = ">=3.10"
+requires-python = ">=3.14"
 dependencies = [
-    "jupyterlab~=4.3.0",
-    "numpy~=2.1.2",
-    "scipy~=1.14.1",
-    "scikit-learn~=1.5.2",
-    "matplotlib~=3.9.2",
-    "seaborn~=0.13.2",
-    "tqdm~=4.66.6",
+    "jupyterlab>=4.3,<5",
+    "numpy>=2.2.4",
+    "scipy>=1.16",
+    "scikit-learn>=1.7",
+    "matplotlib>=3.10",
+    "seaborn>=0.13.2",
+    "tqdm>=4.66",
 ]

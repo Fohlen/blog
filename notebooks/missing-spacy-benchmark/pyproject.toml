@@ -2,16 +2,16 @@
 name = "missing-spacy-benchmark"
 version = "0.1.0"
 description = "Evaluation of spaCy base models (tok2vec vs transformer) on the MTEB benchmark"
-requires-python = ">=3.10"
+requires-python = ">=3.14"
 dependencies = [
-    "jupyterlab~=4.0.6",
-    "pandas~=2.1.1",
-    "matplotlib~=3.8.0",
-    "seaborn~=0.12.2",
+    "jupyterlab>=4.3,<5",
+    "pandas>=2.3",
+    "matplotlib>=3.10",
+    "seaborn>=0.13.2",
 ]
 
 [project.optional-dependencies]
 scripts = [
-    "mteb[beir]~=1.1.0",
-    "spacy[apple,transformers]~=3.6.1",
+    "mteb[beir]>=1.1",
+    "spacy[apple,transformers]>=3.8",
 ]
