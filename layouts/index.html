@@ -23,7 +23,7 @@
                   <div class="posts-categories">
                     {{ range .Params.categories }}
                     <div class="posts-category">
-                      <a href="/categories/{{ lower . }}/"><strong>{{ . }}</strong></a>
+                      <a href="/categories/{{ . | urlize }}/"><strong>{{ . }}</strong></a>
                     </div>
                     {{ end }}
                   </div>
