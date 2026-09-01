@@ -1,0 +1,21 @@
+---
+title: "Quarto for scientific presentations"
+format: "pptx"
+author: "Lennard Berger"
+date: "2025-08-28"
+draft: true
+---
+
+## Slide 1
+Welcome to your first Quarto presentation!
+
+## Slide 2
+
+What's the result of $y = mx + b$ when $m=2$, $x=3$ and $b=4$?
+
+## Slide 3
+
+```python
+for i in range(3):
+    print(i)
+```
