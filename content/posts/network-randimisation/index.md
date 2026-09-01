@@ -3,7 +3,7 @@ title: "Graph randomization is not the same as graph randomization"
 author: "Lennard Berger"
 date: "2023-11-25"
 description: "In network science, node degree and strength are important properties. When randomising networks one needs to take them into consideration"
-categories: [network science,jupyter]
+categories: [network science,jupyter,python]
 ---
 Recently I haven taken some interest in network science. There are many things to discuss. For this blog post I would like to share my fascination that $randomization \neq randomization$. In network science, node degree and strength [1] are important properties. 
 

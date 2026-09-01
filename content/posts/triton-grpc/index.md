@@ -3,7 +3,7 @@ title: "NVIDIA resolves gRPC performance issues"
 author: "Lennard Berger"
 date: "2023-11-28"
 description: "Using Triton Inference Server's gRPC interface one could encounter massive performance drops. Taking a look at the benchmark shows the regression has been resolved!"
-categories: [machine learning,nvidia,triton inference server]
+categories: [machine learning,nvidia,triton inference server,python]
 ---
 As with any software architecture, deep learning models need a delivery platform. This is the job of [NVIDIA's Triton Inference Server](https://developer.nvidia.com/triton-inference-server). The idea is conceptionally simple:
 
