@@ -163,5 +163,6 @@ git status        # ensure no huge files staged (check-attr ipynb)
 - [x] `linear-regression-l2-norm-dropout-relation` (notebook, manual citations)
 - [x] `mapping-spans-between-documents-interview-question` (markdown)
 - [x] `property-graph-db` (markdown, manual citations)
+- [x] `vector-distances-rust` (notebook, manual citations, compute-heavy — figures reused from stored outputs)
 - [ ] `modeling_mindsets` (notebook — workspace set up, post in progress)
 - [ ] remaining posts
