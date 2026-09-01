@@ -162,5 +162,6 @@ git status        # ensure no huge files staged (check-attr ipynb)
 - [x] `simulating-the-game-with-monte-carlo` (notebook, manual citations)
 - [x] `linear-regression-l2-norm-dropout-relation` (notebook, manual citations)
 - [x] `mapping-spans-between-documents-interview-question` (markdown)
+- [x] `property-graph-db` (markdown, manual citations)
 - [ ] `modeling_mindsets` (notebook — workspace set up, post in progress)
 - [ ] remaining posts
