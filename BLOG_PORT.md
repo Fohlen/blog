@@ -164,5 +164,8 @@ git status        # ensure no huge files staged (check-attr ipynb)
 - [x] `mapping-spans-between-documents-interview-question` (markdown)
 - [x] `property-graph-db` (markdown, manual citations)
 - [x] `vector-distances-rust` (notebook, manual citations, compute-heavy — figures reused from stored outputs)
+- [x] `thinking-is-not-hierarchical` (markdown, manual citations)
+- [x] `how-many-calories-does-llm-need` (markdown, manual citations)
+- [x] `testing-linear-regression-empirically` (notebook)
 - [ ] `modeling_mindsets` (notebook — workspace set up, post in progress)
 - [ ] remaining posts
