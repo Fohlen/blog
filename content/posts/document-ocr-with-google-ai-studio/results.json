@@ -1,0 +1,150 @@
+{
+  "books": [
+    {
+      "title": "Menschen Tiere Katastrophen",
+      "language": "ger",
+      "authors": []
+    },
+    {
+      "title": "Jenseits von Pu und Böse",
+      "language": "ger",
+      "authors": []
+    },
+    {
+      "title": "Kleiner Ratgeber",
+      "language": "ger",
+      "authors": [
+        "Loriot"
+      ]
+    },
+    {
+      "title": "Lotti Huber: Diese Zitrone hat noch viel Saft!",
+      "language": "ger",
+      "authors": [
+        "Lotti Huber"
+      ]
+    },
+    {
+      "title": "Alice im Wunderland",
+      "language": "ger",
+      "authors": [
+        "Lewis Carroll"
+      ]
+    },
+    {
+      "title": "Safari de la Vie",
+      "language": "fre",
+      "authors": [
+        "John Strelecky"
+      ]
+    },
+    {
+      "title": "Blauvogel",
+      "language": "ger",
+      "authors": [
+        "Anna Jürgen"
+      ]
+    },
+    {
+      "title": "THE TALES OF BEEDLE THE BARD",
+      "language": "eng",
+      "authors": [
+        "J.K. Rowling"
+      ]
+    },
+    {
+      "title": "FRÜHLING DER BARBAREN",
+      "language": "ger",
+      "authors": [
+        "Jonas Lüscher",
+        "C.H. Beck"
+      ]
+    },
+    {
+      "title": "The Penguin Book of the British Short Story From P.G. Wodehouse to Zadie Smith",
+      "language": "eng",
+      "authors": []
+    },
+    {
+      "title": "Die Brüder Karamasow",
+      "language": "ger",
+      "authors": [
+        "Dostojewskij"
+      ]
+    },
+    {
+      "title": "DOSTOJEWSKIJ",
+      "language": "ger",
+      "authors": []
+    },
+    {
+      "title": "Die Geschichte eines Moralisten",
+      "language": "ger",
+      "authors": [
+        "Erich Kästner",
+        "Fabian"
+      ]
+    },
+    {
+      "title": "Grundgesetz für die Bundesrepublik Deutschland ab 12 Jahre",
+      "language": "ger",
+      "authors": []
+    },
+    {
+      "title": "Blechtrommel",
+      "language": "ger",
+      "authors": [
+        "Günter Grass",
+        "Scheerer",
+        "Zopfkopf"
+      ]
+    },
+    {
+      "title": "Animal Farm",
+      "language": "eng",
+      "authors": []
+    },
+    {
+      "title": "Von der Ursprünglichkeit des Denkens",
+      "language": "ger",
+      "authors": [
+        "Hannah Arendt"
+      ]
+    },
+    {
+      "title": "The Origins of Totalitarianism",
+      "language": "eng",
+      "authors": [
+        "Hannah Arendt"
+      ]
+    },
+    {
+      "title": "Punkt, Komma, Strich",
+      "language": "ger",
+      "authors": [
+        "Johann Nossener"
+      ]
+    },
+    {
+      "title": "J.K. ROWLING",
+      "language": "eng",
+      "authors": [
+        "J.K. Rowling"
+      ]
+    },
+    {
+      "title": "Hörst Du mir zu? Sein und Zeit 3. Auflage",
+      "language": "ger",
+      "authors": [
+        "Martin Heidegger"
+      ]
+    },
+    {
+      "title": "CARTOONS FÜR LORIOT",
+      "language": "ger",
+      "authors": [
+        "Loriot"
+      ]
+    }
+  ]
+}
