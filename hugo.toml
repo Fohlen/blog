@@ -19,7 +19,7 @@ mainSections = ["posts"]
 postHeaderContent = ""
 lazyImage = true
 extraCSSFiles = ["css/custom.css"]
-extraHead = '''<meta name="google-site-verification" content="nxpWrXt97X-soIBX-zibrfoR5k3EpoomKitRnQRLh70" />
+extraHead = '''
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body,{delimiters:[{left:'$$',right:'$$',display:true},{left:'$',right:'$',display:false}]});"></script>'''
 
