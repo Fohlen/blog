@@ -5,7 +5,7 @@ author: "Lennard Berger"
 date: "2024-05-06"
 categories: [python,rust,word embeddings,machine learning]
 ---
-This post will be a deep dive into word embeddings. Word embeddings have made multiple appearances on this blog, such as in my [talk about neural networks](https://fohlen.github.io/posts/are-neural-networks-all-you-need/Are_neural_networks_all_you_need.html), or [the spaCy benchmark](https://fohlen.github.io/posts/missing-spacy-benchmark/Missing_spaCy_benchmark.html). The reason I am captivated by word embeddings is threefold:
+This post will be a deep dive into word embeddings. Word embeddings have made multiple appearances on this blog, such as in my [talk about neural networks](https://fohlen.dev/posts/are-neural-networks-all-you-need/Are_neural_networks_all_you_need.html), or [the spaCy benchmark](https://fohlen.dev/posts/missing-spacy-benchmark/Missing_spaCy_benchmark.html). The reason I am captivated by word embeddings is threefold:
 
 - they are very useful, the underlying building blocks for most text-based machine learning models
 - word embeddings are computationally efficient (you can encode _"all the language's meaning"_ in a few hundred megabyte)

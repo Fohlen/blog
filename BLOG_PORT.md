@@ -1,6 +1,6 @@
 # Blog
 
-Hugo blog (`fohlen.github.io`) using the [YinYang](https://github.com/joway/hugo-theme-yinyang)
+Hugo blog (`fohlen.dev`) using the [YinYang](https://github.com/joway/hugo-theme-yinyang)
 theme. This documents the conventions for creating new posts.
 
 ## Prerequisites
