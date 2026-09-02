@@ -38,3 +38,7 @@ link = "/about/"
 [[params.socials]]
 name = "GitHub"
 link = "https://github.com/Fohlen"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
