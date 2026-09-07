@@ -3,7 +3,7 @@ title: "Why do machines learn at all?"
 description: "A soft introduction into Statistical Learning Theory and why Machine Learning works"
 author: "Lennard Berger"
 date: "2026-09-06"
-categories: [python,machine learning,statistics]
+categories: [machine learning,statistics]
 ---
 
 I believe for a long time people were pretty skeptical on whether machines learn at all.
