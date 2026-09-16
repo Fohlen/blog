@@ -10,7 +10,7 @@ My tinkering is primarily done in Python 🐍, which helps me prototype very qui
 
 ## Work
 
-I work on the [ARC AGI challenge](https://arcprize.org/arc-agi) at [Martin Butz](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/cognitive-modeling/)'s lab, attempting to solve iterative planning problems in AI.
+I worked on the [ARC AGI 2](https://arcprize.org/blog/arc-agi-2-technical-report) challenge at [Martin Butz](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/cognitive-modeling/)'s lab, attempting to solve iterative planning problems in AI.
 
 Previously I worked at [YUKKA Lab](https://www.yukkalab.com), a news analytics company, as the data engineering team lead of a fantastic group of people.
 We created a comprehensive knowledge graph of the entire world and a named entity linking system to disambiguate everything.
