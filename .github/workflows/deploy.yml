@@ -21,7 +21,7 @@ jobs:
         run: chmod +x build.sh && ./build.sh
 
       - name: Deploy to Bunny Storage & Purge CDN
-        uses: ayeressian/bunnycdn-storage-deploy@v2.4.6
+        uses: ayeressian/bunnycdn-storage-deploy@v2.4.5
         with:
           source: "public"
           destination: ""
