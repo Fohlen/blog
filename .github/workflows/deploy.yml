@@ -1,0 +1,35 @@
+name: Build and Deploy to Bunny.net
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: true
+          fetch-depth: 0
+
+      - name: Build static site
+        run: chmod +x build.sh && ./build.sh
+
+      - name: Deploy to Bunny Storage & Purge CDN
+        uses: ayeressian/bunnycdn-storage-deploy@v2.4.6
+        with:
+          source: "public"
+          destination: ""
+          storageZoneName: ${{ secrets.BUNNY_STORAGE_NAME }}
+          storagePassword: ${{ secrets.BUNNY_STORAGE_PASSWORD }}
+          storageEndpoint: "storage.bunnycdn.com" # Update if using a regional endpoint (e.g., de.storage.bunnycdn.com)
+          upload: true
+          remove: true
+          purgePullZone: true
+          pullZoneId: ${{ secrets.BUNNY_PULL_ZONE_ID }}
+          accessKey: ${{ secrets.BUNNY_API_KEY }}
